@@ -13,4 +13,5 @@ def generate_report(client_data):
     c = canvas.Canvas("reports/diet_report.pdf")
     c.drawString(100, 750, "Reporte de Progreso de Dieta")
     c.drawImage("assets/progress_chart.png", 100, 450, width=400, height=300)
-    c.showPage()c.save()
+    c.showPage()
+    c.save()

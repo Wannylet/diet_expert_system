@@ -9,11 +9,11 @@ def get_diet_plan(diet_type, goal):
             "carbs": 200,
             "fats": 50
             }
-        elif diet_type == "bajo en carbohidratos" and goal == "aumento muscular":
-            return {
-                "calories": 2500,
-                "protein": 100,
-                "carbs": 150,
-                "fats": 80
-            }
-            # Añadir más reglas según necesidades
+    elif diet_type == "bajo en carbohidratos" and goal == "aumento muscular":
+        return {
+            "calories": 2500,
+            "protein": 100,
+            "carbs": 150,
+            "fats": 80
+        }
+        # Añadir más reglas según necesidades
