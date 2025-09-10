@@ -3,3 +3,4 @@ pandas>=2.2.0 # Manejo de datos para el registro de citas y progresos
 numpy>=1.26.0 # Cálculos numéricos tkinter
 reportlab>=3.6.13 # Para generar reportes en PDF
 scikit-learn>=1.3.0 # Implementación de la regresión lineal
+tkinter
